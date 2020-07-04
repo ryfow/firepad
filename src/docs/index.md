@@ -46,7 +46,7 @@ Include Firebase, CodeMirror, and Firepad in the &lt;head&gt; section of your pa
 To create a Firepad, you must initialize Firebase, CodeMirror and then Firepad.
 Here is a typical setup for rich-text editing:
 
-{% highlight html %}
+{% highlight text %}
 <body onload="init()">
   <div id="firepad"></div>
   <script>
